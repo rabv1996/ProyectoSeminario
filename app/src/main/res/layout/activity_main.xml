@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/screen_background_dark_transparent"
+    android:orientation="vertical"
+    tools:context="com.example.ricky.proyectoseminario.MainActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 2"
+        android:inputType="number" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sumar"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="Su"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="Res"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/mul"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="Multi"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/div"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="divi"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cuadrado"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:text="cuadra"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/elev"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:text="cubo"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="00"
+        android:textSize="110sp" />
+
+
+</LinearLayout>
